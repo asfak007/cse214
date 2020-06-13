@@ -1,21 +1,18 @@
 #include<stdio.h>
-int main()
-{
-    int array[5]={1,2,3,4,5};
+int main(){
+    int arr[5]={1,2,3,4,5};
     int i, max;
 
-     printf("Hole Array :\n");
-     for(i=0;i<5;i++)
-     {
-         printf("%d ",array[i]);
+     printf(" Array :\n");
+     for(i=0;i<5;i++){
+         printf("%d ",arr[i]);
      }
-     max = array[0];
+     max = arr[0];
 
-     for(i=1;i<5;i++)
-     {
-         if(max<array[i])
-         {
-             max=array[i];
+     for(i=1;i<5;i++){
+         if(max<arr[i]){
+             
+             max=arr[i];
          }
      }
      printf("\nMinimum value : %d  ",max);
