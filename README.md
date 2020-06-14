@@ -46,7 +46,7 @@ Array Merge
 
 Array Spilt
 
-*Cyclically Permute
+Cyclically Permute
 
 ## Lab assignment 5
 
