@@ -1,3 +1,6 @@
+/*Print entire array each element separated by comma */
+
+
 #include <stdio.h>
 int main(){
 
