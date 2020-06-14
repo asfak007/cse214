@@ -1,3 +1,4 @@
+/*Update fifth index with another value.And print the whole array.*/
 #include<stdio.h>
 int main()
 {
