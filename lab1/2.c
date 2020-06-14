@@ -1,3 +1,5 @@
+/*Scan value from user into an array until end of file*/
+
 #include<stdio.h>
 int main()
 {
