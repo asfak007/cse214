@@ -1,3 +1,5 @@
+/*Search a value x(take input x from user)in the array and print the index if x found in the array otherwise print "-1"*/
+
 #include<stdio.h>
 int main()
 {
