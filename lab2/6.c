@@ -1,4 +1,4 @@
-/*Search a value x(take input x from user)in the array and print "found"if x found in the array otherwise print "notfound*/
+/* Update Kth  index with the value “X” . And print the whole array */
 
 #include<stdio.h>
 int main()
