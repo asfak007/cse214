@@ -1,77 +1,80 @@
-# Lab assignment 1
+# cse214
 
-array Declaretion
+## Lab assignment 1
 
-Array Initializetion
+*Array Declaretion
 
-Array Access
+*Array Initializetion
 
-Array I/O
+*Array Access
 
+*Array I/O
 
-##Lab assignment 2
-Array Declaretion
+## Lab assignment 2
 
-Array Update
+*Array Declaretion
 
-Array Search
+*Array Update
 
-Array Delete
+*Array Search
 
+*Array Delete
 
-##Lab assignment 3
-Maximum
+## Lab assignment 3
 
-Minimum
+*Maximum
 
-Summation
+*Minimum
 
-Average
+*Summation
 
-Standard Deviation
+*Average
 
-Fibonacci Number
+*Standard Deviation
 
+*Fibonacci Number
 
-##Lab assignment 4
-Array Copy
+## Lab assignment 4
 
-Array Reverse
+*Array Copy
 
-Array Compare
+*Array Reverse
 
-Array Merge
+*Array Compare
 
-Array Spilt
+*Array Merge
 
-Cyclically Permute
+*Array Spilt
 
+*Cyclically Permute
 
-##Lab assignment 5
-Array Operation Using Pointer Array Declaration
+## Lab assignment 5
 
-Array Initialization
+*Array Operation Using Pointer Array Declaration
 
-Array Accessing
+*Array Initialization
 
-Array I/O
+*Array Accessing
 
-Merge
+*Array I/O
 
-Compare
+*Merge
 
-Reverse
+*Compare
 
-Maximum
+*Reverse
 
-Minimum
+*Maximum
 
-Merge by Sorting
+*Minimum
 
-Summation
+*Merge by Sorting
 
-Split
+*Summation
 
-Updating Index
+*Split
 
-Cycally Permutee
+*Updating Index
+
+*Cycally Permutee
+
