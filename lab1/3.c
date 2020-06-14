@@ -1,3 +1,5 @@
+/*Scan value from user into an array until user is 0*/
+
 #include<stdio.h>
 int main(){
     int arr[100];
