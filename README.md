@@ -1,6 +1,6 @@
 # Lab assignment 1
 
-Array Declaretion
+array Declaretion
 
 Array Initializetion
 
@@ -9,7 +9,7 @@ Array Access
 Array I/O
 
 
-#Lab assignment 2
+##Lab assignment 2
 Array Declaretion
 
 Array Update
@@ -19,7 +19,7 @@ Array Search
 Array Delete
 
 
-#Lab assignment 3
+##Lab assignment 3
 Maximum
 
 Minimum
@@ -33,7 +33,7 @@ Standard Deviation
 Fibonacci Number
 
 
-#Lab assignment 4
+##Lab assignment 4
 Array Copy
 
 Array Reverse
@@ -47,7 +47,7 @@ Array Spilt
 Cyclically Permute
 
 
-#Lab assignment 5
+##Lab assignment 5
 Array Operation Using Pointer Array Declaration
 
 Array Initialization
