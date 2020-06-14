@@ -1,3 +1,4 @@
+/*Insert a value Xin the array at kth index and shift all other value to right.And print the whole array.*/
 #include <stdio.h>
 
 void main()
