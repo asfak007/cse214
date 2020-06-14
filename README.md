@@ -2,79 +2,79 @@
 
 ## Lab assignment 1
 
-*Array Declaretion
+Array Declaretion
 
-*Array Initializetion
+Array Initializetion
 
-*Array Access
+Array Access
 
-*Array I/O
+Array I/O
 
 ## Lab assignment 2
 
-*Array Declaretion
+Array Declaretion
 
-*Array Update
+Array Update
 
-*Array Search
+Array Search
 
-*Array Delete
+Array Delete
 
 ## Lab assignment 3
 
-*Maximum
+Maximum
 
-*Minimum
+Minimum
 
-*Summation
+Summation
 
-*Average
+Average
 
-*Standard Deviation
+Standard Deviation
 
-*Fibonacci Number
+Fibonacci Number
 
 ## Lab assignment 4
 
-*Array Copy
+Array Copy
 
-*Array Reverse
+Array Reverse
 
-*Array Compare
+Array Compare
 
-*Array Merge
+Array Merge
 
-*Array Spilt
+Array Spilt
 
 *Cyclically Permute
 
 ## Lab assignment 5
 
-*Array Operation Using Pointer Array Declaration
+Array Operation Using Pointer Array Declaration
 
-*Array Initialization
+Array Initialization
 
-*Array Accessing
+Array Accessing
 
-*Array I/O
+Array I/O
 
-*Merge
+Merge
 
-*Compare
+Compare
 
-*Reverse
+Reverse
 
-*Maximum
+Maximum
 
-*Minimum
+Minimum
 
-*Merge by Sorting
+Merge by Sorting
 
-*Summation
+Summation
 
-*Split
+Split
 
-*Updating Index
+Updating Index
 
-*Cycally Permutee
+Cycally Permutee
 
