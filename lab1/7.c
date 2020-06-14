@@ -1,3 +1,5 @@
+ /*Print  the array elements in reverse order . Each elements should be separated by space */
+
 #include <stdio.h>
 int main(){
 
