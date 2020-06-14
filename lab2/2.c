@@ -1,3 +1,5 @@
+/*Insert a value X in the array at the end of currently stored elements*/
+
 #include<stdio.h>
 int main()
 {
