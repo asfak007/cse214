@@ -1,3 +1,5 @@
+/*Scan  values from user into an array*/
+
 #include<stdio.h>
 int main()
 {
