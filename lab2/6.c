@@ -1,3 +1,5 @@
+/*Search a value x(take input x from user)in the array and print "found"if x found in the array otherwise print "notfound*/
+
 #include<stdio.h>
 int main()
 
