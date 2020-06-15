@@ -1,3 +1,4 @@
+/*Calculate the summation of all elements of the given array.Access the array using pointer*/
 #include<stdio.h>
 int main(){
 
