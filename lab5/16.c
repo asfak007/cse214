@@ -1,3 +1,6 @@
+/*  Declare another array with ten (10) values and compare both
+    arrays whether they are same or not. Access the array using pointer */
+
 #include <stdio.h>
 int main(){
 
