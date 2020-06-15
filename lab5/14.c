@@ -1,3 +1,4 @@
+/*Copy the given array into another array.Access the using pointer*/
 #include<stdio.h>
 int main(){
 
