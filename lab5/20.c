@@ -1,3 +1,5 @@
+/* Cyclically permute the elements of an array. Access the array using pointer */
+
 #include <stdio.h>
 int main(){
     int i;
