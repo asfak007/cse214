@@ -1,3 +1,5 @@
+/*Reverse the given array within the same array.Access the array using pointer*/
+
 #include<stdio.h>
 int main(){
     int i;
