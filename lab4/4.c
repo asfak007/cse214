@@ -1,3 +1,5 @@
+/*Declare another array with ten (10) values and compare both array whether they are same or not*/
+
 #include <stdio.h>
 int main()
 {
