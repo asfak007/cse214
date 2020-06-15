@@ -1,3 +1,4 @@
+/*Find minimum from the array*/
 #include<stdio.h>
 int main()
 {
