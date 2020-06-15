@@ -1,3 +1,4 @@
+/*Scan values from user into an array until end of file.Acccess the array using pointer*/
 #include<stdio.h>
 int main(){
 
