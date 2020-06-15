@@ -1,3 +1,7 @@
+  
+/*  Declare another array with five (5) values and merge two array
+    into one array. Access the array using pointer */
+
 #include <stdio.h>
 int main()
 {
