@@ -1,27 +1,31 @@
+/*  Search a value “X” (take input X from user) in the array
+    and print the location if “X” found in the array otherwise
+    print -1. Access the array using pointer */
+
 #include<stdio.h>
 int main()
 {
     int *p;
-    int i, n, loc;
-    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int i, X, location;
+    int array[100] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int size = 10;
-    int temp = 0;
+    int tag = 0;
 
-    scanf("%d",&n);
+    scanf("%d",&X);
 
-    p = &arr[0];
+    p = &array[0];
 
     for(i=0; i<size; i++)
     {
-        if(*(p+i)==n)
+        if(*(p+i)==X)
         {
-            loc = i;
-            temp++;
+            location = i;
+            tag++;
         }
     }
 
     if(tag==1)
-        printf("%d",loc);
+        printf("%d",location);
     else
         printf("-1");
 
