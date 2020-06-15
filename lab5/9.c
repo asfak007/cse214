@@ -1,3 +1,5 @@
+/* Find Maximum from the Array. Access the array using pointer */
+
 #include<stdio.h>
 int main(){
 
