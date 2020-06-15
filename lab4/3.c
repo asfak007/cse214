@@ -1,3 +1,4 @@
+/*Reverse the given array  within the same array*/
 #include <stdio.h>
 int main(){
 
