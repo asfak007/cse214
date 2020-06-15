@@ -1,3 +1,5 @@
+/*Find second maximum from the array.Access the array using pointer*/
+
 #include<stdio.h>
 int main(){
 
