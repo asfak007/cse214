@@ -1,3 +1,4 @@
+/*Find second minimum from the array.Access the array using pointer*/
 #include<stdio.h>
 int main()
 {
