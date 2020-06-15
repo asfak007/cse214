@@ -1,3 +1,5 @@
+/* Merge the Elements of two Sorted Array. Access the array using pointer */
+
 #include <stdio.h>
 int main()
 {
