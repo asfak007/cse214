@@ -1,3 +1,5 @@
+/*Find second maximun from the array*/
+
 #include<stdio.h>
 int main()
 {
