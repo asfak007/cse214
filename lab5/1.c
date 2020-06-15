@@ -1,3 +1,4 @@
+/*Scan N(take input N from user)values from user into an array.Access the array using Pointer*/
 #include<stdio.h>
 int main(){
 
