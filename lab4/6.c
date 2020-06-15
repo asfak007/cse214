@@ -1,3 +1,5 @@
+/*Merge the elements of two sorted array*/
+
 #include <stdio.h>
 int main(){
     int i, j, size, temp;
