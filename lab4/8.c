@@ -1,3 +1,4 @@
+/*Cyclically permute the elements of an array*/
 #include <stdio.h>
 int main(){
     int i;
