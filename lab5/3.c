@@ -1,3 +1,4 @@
+/*Scan values from user into an array until user input 0[zero].Acccess the array using pointer*/
 #include<stdio.h>
 int main(){
 
