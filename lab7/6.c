@@ -1,3 +1,6 @@
+// Define a "search" functon to find a "key". print "found" if the search "key"  is found in
+// the linked list otherwise print "Not Found ".
+
 #include<stdio.h>
 #include<stdlib.h>
 
