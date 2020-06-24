@@ -1,6 +1,7 @@
 ## ASSIGNMENT-07
 
-Linked List operations [Single way (singly)Linked List]
+# Linked List operations [Single way (singly)Linked List]
+
 
 1. Define a "Create" function to declear a linked list with for node using dynamic memory
 allocaton. Print the complete linked list after calling funvction.
