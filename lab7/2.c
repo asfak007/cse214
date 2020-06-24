@@ -1,3 +1,5 @@
+//Define an "Empty" function to chack whether the linked list is empty or not.
+
 #include<stdio.h>
 #include<stdlib.h>
 
