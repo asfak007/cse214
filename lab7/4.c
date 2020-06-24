@@ -1,3 +1,5 @@
+// Define a "Front" function to display the first element of te linked list
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -28,8 +30,7 @@ int front_value(node* list){
 }
 
 
-node* create_list()
-{
+node* create_list(){
 
     node *a,*b,*c,*d;
     a=(node*) malloc(sizeof(node));
