@@ -1,3 +1,5 @@
+// copy a linked list into anothe linked list with a recursive functon.Dispaly both lsir before and after copy.
+
 #include<stdio.h>
 #include<stdlib.h>
 
