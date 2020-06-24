@@ -1,3 +1,5 @@
+// Define a "Size" function   to find the sixe of the linked list.
+
 #include<stdio.h>
 #include<stdlib.h>
 
