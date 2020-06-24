@@ -1,3 +1,5 @@
+// Define  a funvction to reverse the linked list. Display both list before and after reverseing.
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -7,13 +9,13 @@ struct Node {
 int data ;
 node* next;
 };
+
 node* create_list();
 void print_list(node* head);
 
 node *reverse_recursive(node* head);
 
-int main()
-{
+int main(){
     node* head;
 
     head = NULL;
@@ -27,6 +29,7 @@ int main()
 
         return 0;
 }
+
 node *reverse_recursive(node* head){
 
     if(head == NULL){
@@ -44,8 +47,8 @@ node *reverse_recursive(node* head){
     return new_node;
 
 }
-node* create_list()
-{
+
+node* create_list(){
 
     node *a,*b,*c;
     a=(node*) malloc(sizeof(node));
