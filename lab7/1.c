@@ -1,3 +1,6 @@
+//Define a "Create" function to declear a linked list with for node using dynamic memoryallocaton. Print the complete linked list after calling funvction.
+
+
 #include<stdio.h>
 #include<stdlib.h>
 
