@@ -25,9 +25,13 @@ So, it can be easily used in any function.
 
 ### Push function: 
 
-when the function is called it create a new node every time. 
+when the function is called it create a new node every time.
+
+
+
 
 void push(int num){ 
+
 Node *newnode;
 
 newnode = (Node *)malloc(sizeof(Node));  
