@@ -72,7 +72,7 @@ temp = head;
      printf("It's empty. \n");
  }
 
- printf("top element is : %d \n",temp->value);    
+ printf("top element is : %d \n",temp->value);   
 
  return main;
 }
