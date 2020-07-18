@@ -76,6 +76,63 @@ Summation
 
 Spli
 
+# Assignment 6
+
+Create Link List
+
+Declare
+            
+Initialize
+
+Access
+
+Traverse
+
+Link List Output
+
+# Assignment 7
+
+Create Link List
+
+Check Empty Link List
+
+Link List Size
+
+Front Node
+
+Back Node
+
+
+Search Node Value
+
+Reverse Link List
+
+Merge Link List
+
+# Assignment 8
+
+Delete Back
+
+Delete Front
+
+Delete Value
+
+Delete At
+
+Delete All/Clear
+
+# Assignment 9
+
+Insert Front
+
+Insert Back
+
+Insert At
+
+Insert Before
+
+Insert After
+
 Updating Index
 
 Cycally Permutee
