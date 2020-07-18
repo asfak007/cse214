@@ -102,7 +102,7 @@ void pop(){
    printf("pop value : %d\n",temp->value);
 
    head = temp->next;
-   free(temp);
+  
    }
 }
 
