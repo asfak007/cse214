@@ -6,6 +6,10 @@
     Desing a stack data structure.
 </h2>
 
+#### [CLICK HERE For C File](../lab10/lab_mid_report_V3.c)
+
+#### [CLICK HERE For Header File](../lab10/lab_mid_report_V3.h)
+
 
 ### Functions:
 
@@ -26,7 +30,7 @@
 
 ## Push Function: 
 
-'''c
+```c
 void push(int num)
 {
    Node *newnode;
@@ -39,12 +43,12 @@ void push(int num)
    head = newnode;
 
 }
-'''
+```
 
 
 ## Pop Function:
 
-'''c
+```c
 void pop()
 {
     
@@ -61,13 +65,13 @@ void pop()
           head = temp->next;
       }
 }
-'''
+```
 
 
 
 ## Top Function :
 
-'''c
+```c
 void top()
 {
     if(head == NULL)
@@ -79,14 +83,14 @@ void top()
      printf("top element is : %d \n",head->value);
 
 }
-'''
+```
 
 
 
 
 ## Size Function :
 
-'''c
+```c
 int size_of()
 {
 
@@ -107,10 +111,10 @@ int size_of()
             return n;
         }
 }
-'''
+```
 
 ## Empty Function :
-'''c
+```c
 void empty_stack()
 {
     if(head == NULL)
@@ -125,7 +129,7 @@ void empty_stack()
 
 }
 }
-'''
+```
 ## Display Function :
 ```c
 void display()
