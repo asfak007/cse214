@@ -1,6 +1,11 @@
-# Problen number : 5
+<h1 align="center">
+    Problen number : 5
+</h1>
 
-## Desing a stack data structure.
+<h2 align="center">
+    Desing a stack data structure.
+</h2>
+
 
 ### Functions:
 
@@ -14,139 +19,136 @@
 
 5.Pop
 
-
-###  I create head as a  global variables 
-
-Node *head = NULL;
-
-So, it can be easily used in any function.
-
-
-
-### Push function: 
-
-when the function is called it create a new node every time.
+6.Display 
 
 
 
 
-void push(int num){ 
+## Push Function: 
 
-Node *newnode;
+'''c
+void push(int num)
+{
+   Node *newnode;
 
-newnode = (Node *)malloc(sizeof(Node));  
+   newnode = (Node *)malloc(sizeof(Node));
+   newnode->value = num;
+   newnode->next = NULL;
 
-newnode->value = num; 
-
-newnode->next = NULL;
-
-newnode->next = head;
-
-head = newnode;
+   newnode->next = head;
+   head = newnode;
 
 }
+'''
+
+
+## Pop Function:
+
+'''c
+void pop()
+{
+    
+   Node *temp;
+   temp = head;
+   if (temp == NULL)
+      {
+          printf("Stack is Empty.\n");
+
+      }
+   else
+      {
+          printf("pop value : %d\n",temp->value);
+          head = temp->next;
+      }
+}
+'''
 
 
 
-### Pop function:
+## Top Function :
 
-void pop(){
+'''c
+void top()
+{
+    if(head == NULL)
+        {
+            printf("Stack is Empty. \n");
 
-Node *temp; 
+        }
 
-temp = head; 
-
-if (temp == NULL) { 
-
-printf("It's empty .\n");                 ( if the stack is empty the program returns to main function )
-
-return main; 
-
-} 
-
-else{ 
-
-printf("pop value : %d\n",temp->value);
-
-head = temp->next;                       ( After pop head node was replace by next node )
-
-free(temp); 
-
-} 
+     printf("top element is : %d \n",head->value);
 
 }
+'''
 
 
 
 
-### Top function :
+## Size Function :
 
-Top function is print the value of the top node on the stack  
- 
-void top(){ 
+'''c
+int size_of()
+{
 
-Node *temp;
-
-temp = head;
-
-
- if(temp == NULL){
- 
-     printf("It's empty. \n");
- }
- 
-
- printf("top element is : %d \n",temp->value);  
- 
-
- return main;
- 
+    Node *temp;
+    temp = head;
+    int n = 0;
+    if (temp == NULL)
+        {
+            return 0;
+        }
+    else
+        {
+            while (temp != NULL)
+            {
+                n++;
+                temp = temp->next;
+            }
+            return n;
+        }
 }
+'''
+
+## Empty Function :
+'''c
+void empty_stack()
+{
+    if(head == NULL)
+        {
+            printf("Stack is Empty.\n");
 
 
+        }
+    else
+        {
+            printf("Stack is not Empty");
 
+}
+}
+'''
+## Display Function :
+```c
+void display()
+{
+    Node *temp;
+    temp = head;
 
-### Size function :
+    if(temp == NULL)
+        {
+           printf("Stack is Empty.\n");
 
-size function is print the size of the stack. 
+        }
+    else
+        {
+            printf("The stake is : ");
+            while(temp != NULL)
+                {
+                    printf("%d ",temp->value);
+                    temp = temp->next;
+                }
 
-
-int size(){
-
-
-Node *temp;
-
-temp = head;
-
-  int count = 0;
-  
-  if (temp == NULL)
-  
-  {
-  
-      return 0;
-      
-  }
-  
-  else
-  
-  {
-  
-       while (temp != NULL)
-       
-  {
-  
-
-      count++ ;
-      
-      temp = temp->next;
-      
-
-  }
-  
-  return count ;
-  
-  }
-  
-
+            printf("\n");
+        }
+}
+```
 
