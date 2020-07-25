@@ -1,158 +1,30 @@
-<h1 align="center">
-    Problen number : 5
-</h1>
+# Introduction
 
-<h2 align="center">
-    Desing a stack data structure.
-</h2>
+## Stack
+Stack is an abstract data type with a limited capacity. It is a simple data structure that allows you to add and delete elements in a specific order. Each time an element is added, it moves to the top of the stack and only the element can be removed.
 
-#### [CLICK HERE For C File](../lab10/lab_mid_report_V3.c)
+## Follow operation in our code:
+Implementation of the stack data structure may provide same of the following operations.
 
-#### [CLICK HERE For Header File](../lab10/lab_mid_report_V3.h)
+•	Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+•	Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+•	Top: Returns top element of stack.
+•	Empty_stack: Returns true if stack is empty, else false.
+•	Size_of:  It get the size of the linked list or the number of elements present in the Stack. This function doesn’t take any parameter. This method returns the size or the number of elements present in the stack.
 
+# Uses
 
-### Functions:
-
-1.Empty
-
-2.Size
-
-3.Top
-
-4.Push
-
-5.Pop
-
-6.Display 
-
-
-
-
-## Push Function: 
-
-```c
-void push(int num)
-{
-   Node *newnode;
-
-   newnode = (Node *)malloc(sizeof(Node));
-   newnode->value = num;
-   newnode->next = NULL;
-
-   newnode->next = head;
-   head = newnode;
-
-}
-```
-
-
-## Pop Function:
-
-```c
-void pop()
-{
-    
-   Node *temp;
-   temp = head;
-   if (temp == NULL)
-      {
-          printf("Stack is Empty.\n");
-
-      }
-   else
-      {
-          printf("pop value : %d\n",temp->value);
-          head = temp->next;
-      }
-}
-```
-
-
-
-## Top Function :
-
-```c
-void top()
-{
-    if(head == NULL)
-        {
-            printf("Stack is Empty. \n");
-
-        }
-
-     printf("top element is : %d \n",head->value);
-
-}
-```
-
-
-
-
-## Size Function :
-
-```c
-int size_of()
-{
-
-    Node *temp;
-    temp = head;
-    int n = 0;
-    if (temp == NULL)
-        {
-            return 0;
-        }
-    else
-        {
-            while (temp != NULL)
-            {
-                n++;
-                temp = temp->next;
-            }
-            return n;
-        }
-}
-```
-
-## Empty Function :
-```c
-void empty_stack()
-{
-    if(head == NULL)
-        {
-            printf("Stack is Empty.\n");
-
-
-        }
-    else
-        {
-            printf("Stack is not Empty");
-
-}
-}
-```
-## Display Function :
-```c
-void display()
-{
-    Node *temp;
-    temp = head;
-
-    if(temp == NULL)
-        {
-           printf("Stack is Empty.\n");
-
-        }
-    else
-        {
-            printf("The stake is : ");
-            while(temp != NULL)
-                {
-                    printf("%d ",temp->value);
-                    temp = temp->next;
-                }
-
-            printf("\n");
-        }
-}
-```
+## Uses of stack in computer science:
+•	Stacks can be used for expression evaluation.
+•	Stacks can be used for Memory Management.
+•	Stack data structures are used in backtracking problems.
+•	Back/Forward stacks on browsers.
+•	Undo/Redo stacks in Excel or Word.
+•	Activation records of method calls.
+ 
+## Uses of stack in real world:
+•	The stack of trays in a cafeteria.
+•	A stack of plates in a cupboard.
+•	A driveway that is only one car wide.
+ 
 
