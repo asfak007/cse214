@@ -21,7 +21,6 @@ int search( int key) ;
 
 int main(){
     Node *head = NULL;
-    Node *head2 = NULL;
     Node *list = NULL;
 
 
